@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    font-family: monospace;
+    gap: 30px;
+    background: #50205c;
+}
+
+header{
+    width: 550px;
+    background: #6C4675;
+    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav ul li{
+    border-bottom: 1px solid #6C4675;
+}
+nav ul a{
+    box-sizing: border-box;
+    color: #e6ccef;
+    background: #572364;
+    display: block;
+    width: 100%;
+    padding: 6px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.barra-header{
+    text-align: center;
+    padding: 100px 20px;
+    color: #ff1493;
+    position: fixed;
+}
+
+.boton-descarga{
+    padding: 10px;
+    background-color: #01ffff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton-descarga:hover{
+    background-color: #218585;
+    color: #333;
+}
+
+.nombre{
+    margin: 30px;
+    padding: 25px;
+}
+
+.sobre-mi{
+    margin: 30px;
+    padding: 25px;
+}
+
+.portafolio{
+    margin: 30px;
+    padding: 25px;
+}
+
+.proyectos{
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.proyectos .ficha-proyectos {
+    /*Propiedades de la ficha*/
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #6C4675;
+    display: absolute;
+    width: 30%;
+    height: 340px;
+    align-items: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+  }
+  .proyectos .ficha-proyectos img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid rgb(3, 3, 3);
+    border-radius: 5px;
+    display: block;
+  }
+  .proyectos .ficha-proyectos > .info-ficha {
+    /*Propiedades del texto*/
+    margin: auto;
+    width: 90%;
+    color: rgb(0, 0, 0);
+  }
+  
+  .proyectos .ficha-proyectos > .info-ficha p {
+    /*Dispocision del texto*/
+    text-align: justify;
+    font-weight: 300;
+    padding-top: 10px;
+  }
+
+  .educacion{
+    margin: 30px;
+    padding: 25px;
+}
+
+.habilidades{
+    margin: 30px;
+    padding: 25px;
+}
+
+.contactos{
+    margin: 30px;
+    padding: 25px;
+}
